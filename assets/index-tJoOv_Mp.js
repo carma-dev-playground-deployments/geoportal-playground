@@ -18706,7 +18706,7 @@ ${$u.shaderPreludeCode.vertexSource}`,define:$u.shaderDefine},defaultProjectionD
       <div><strong>Dragging</strong>: ${ba.isDragging?"yes":"no"}</div>
       <div><strong>Point</strong>: (${fmt(ba.point.x)}, ${fmt(ba.point.y)}, ${fmt(ba.point.z)})</div>
       <div><strong>Ray</strong>: ${ba.lastRayDirection?`(${fmt(ba.lastRayDirection.x)}, ${fmt(ba.lastRayDirection.y)}, ${fmt(ba.lastRayDirection.z)})`:"-"}</div>
-    `}}customElements.define("carma-css-axis-gizmo",CssAxisGizmoElement);Color$2.WHITE.withAlpha(.5);reactExports.createContext(null);/*!
+    `}}customElements.define("carma-css-axis-gizmo",CssAxisGizmoElement);Color$2.WHITE.withAlpha(.5);reactExports.createContext(null);reactExports.createContext(null);/*!
  * @kurkle/color v0.3.4
  * https://github.com/kurkle/color#readme
  * (c) 2024 Jukka Kurkela
